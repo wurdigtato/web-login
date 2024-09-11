@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #202020;
+  color: #202020;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+ul {
+  list-style: none;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9d9d9;
+  width: 60vw;
+  height: 96vh;
+  margin: 0 auto;
+  border-radius: 2rem;
+  margin-top: 1%;
+}
+.principal__esquerda {
+}
+.principal__esquerda img {
+  margin-top: 4px;
+  height: 96vh;
+}
+.principal__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.principal__formulario h1 {
+  font-family: Epilogue;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.principal__formulario input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #8b8b8b;
+  border-radius: 0.5rem;
+  font-family: Inter;
+  font-weight: 300;
+}
+
+.principal__formulario input:focus {
+    outline: 1px solid rgba(46, 59, 115, 0.8);
+}
+
+.principal__botao-login {
+  text-align: center;
+  color: #f2f2f2;
+  background-color: #202020;
+  padding: 0.5rem 5.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: Inter;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.principal__botao-login:hover {
+  background-color: #303030;
+  box-shadow: 1px 1px 3px #202020;
+}
+
+.principal__divisao {
+  text-align: center;
+}
+.principal__divisao hr {
+  display: inline-block;
+  padding: 0 30px;
+  margin-bottom: 2px;
+}
+
+.principal__divisao p {
+  display: inline;
+  font-family: Inter;
+  font-size: 10pt;
+  font-weight: 300;
+  margin-right: 2px;
+}
+
+.principal__botao-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 1.6em;
+  border-radius: 0.5rem;
+  background-color: #f2f2f2;
+  border: none;
+  box-shadow: 1px 1px 3px #202020;
+  font-family: Inter;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.principal__botao-google:hover {
+  background-color: #f8f8f8;
+  box-shadow: 2px 2px 4px #202020;
+}
+
+.principal__botao-google img {
+  width: 1rem;
+  padding-top: 2px;
+}
+.principal__esqueceu {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.principal__esqueceu a {
+  color: #202020;
+}
+
+.principal__esqueceu a:hover {
+  text-decoration: underline;
+}
+
+.principal__cadastro {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.principal__cadastro a {
+  color: #2e3b73;
+}
+
+.principal__cadastro a:hover {
+  text-decoration: underline;
+}
